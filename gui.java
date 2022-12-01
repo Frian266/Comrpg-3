@@ -7,7 +7,7 @@ public class gui {
         
         int a = 2 , num = 1;
         String[][] list = new String[10][2];
-        
+       // 
         for (int i = 0; i < list.length; i++) {
             System.out.println("Enter name and Contact number: (count " + num + ")");
             list[i][0] = sc.nextLine();
